@@ -67,13 +67,13 @@ def lambda_handler(event, context):
         description=createSnapshot['Description']
     
         #source Email
-        source_Email='balafrancismanojreddy@gmail.com'
+        source_Email='XXXXXXXXXX@gmail.com'
         
         #destination Email
-        destination_Email='francismanojreddy@gmail.com'
+        destination_Email='XXXXXXXXXX@gmail.com'
         
         #cc Email
-        cc_Email='balafrancismanojreddy@gmail.com'
+        cc_Email='XXXXXXXXXX@gmail.com'
         
         #subject of the Email
         Subject ='Prod EBS Volume SNAPSHOT'
@@ -104,7 +104,7 @@ def lambda_handler(event, context):
                 <b>
                 Thanks & Regards,
                 <br>
-                G B F Manoj Reddy
+                XXXXXXXXXXX
                 </b>
             '''.format(vid=volume_ID,vsize=volume_Size,snapid=snapshot_ID,snapstart=snapshot_start,sstate=state,encrpt=Encryption,des=description)
         message={
